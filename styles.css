@@ -2,6 +2,15 @@
    
 } */
 
+main{
+    background-color: #000000;
+}
+
+.acessibility{
+    background-color: #e0e7f2;
+    box-shadow: 1px 2px 8px 0 #e0e7f2;
+}
+
 .acessibility .acessibility__button {
     padding: 12px;
     font-family: 'Inter', sans-serif;
@@ -13,6 +22,7 @@
     color: #000; 
     font-size: 12px;
 }
+
 
 .infobar {
     background-color: #01579b;
@@ -57,4 +67,36 @@
 
 .teste{
     border-radius:24px
+}
+
+.btn__noticies{
+    border-radius: 16px;
+    background: #ffb300;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #331600;
+    border: none;
+}
+
+
+.notices__info__primary{
+    background-color: #ffffff;
+    border-radius: 24px;
+    border: solid 1px;
+    border-color: #eeeeee;
+}
+
+.notices__info__primary :nth-child(1){
+    margin-left: 3;
+}
+
+.notices__info__secondary{
+    background-color: #ffffff;
+    border-radius: 24px;
 }
