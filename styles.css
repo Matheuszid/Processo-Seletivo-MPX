@@ -3,7 +3,7 @@ body {
 }
 
 main {
-  background-color: #000000;
+  background-color: #fafafa;
 }
 
 .acessibility {
@@ -99,7 +99,85 @@ main {
   margin-left: 3;
 }
 
-.notices__info__secondary {
-  background-color: #ffffff;
-  border-radius: 24px;
+.notices__info__secondary{
+    background-color: #ffffff;
+    border-radius: 24px;
+}
+
+.galeria_photo{
+    height: 584px;
+  flex-grow: 0;
+  margin: 32px 0;
+  padding: 48px 0;
+  border-radius: 16px;
+  background-color: #01579b;
+}
+
+.events__info {
+    margin-left: 30px;
+}
+
+.events__info__cards{
+    margin-left: 15px;
+}
+
+.events__info h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #01579b;
+}
+
+.events__info h2{
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #01579b;
+  
+}
+
+.events__info h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #616161;
+}
+
+.events__info h4{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #01579b;
+}
+
+.events__info h5{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #616161;
 }
