@@ -63,10 +63,34 @@ main {
   color: white;
 }
 
+.infobar .infobar__link {
+  text-decoration: none;
+}
+
 .infobar .infobar__button {
+  height: 94px;
+  padding: 22px;
   border-radius: 24px;
   color: black;
   background-color: #eceff1;
+}
+
+.infobar .fa-address-card {
+  margin-top: 14px;
+}
+
+.infobar .infobar__button__text {
+  margin-top: 16px;
+  margin-bottom: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
 }
 
 .teste {
